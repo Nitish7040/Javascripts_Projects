@@ -1,4 +1,5 @@
 # <b> This repo have some Javascripts Basic Projects</b> </br> </br>  </br>
+# <u>Project 1 :- Color Scheme Switcher :-</u>
 # <u>Snapshot of the Color Scheme Switcher Project</u>
 ### Here is a snapshot of the project :-
 ![Color Scheme Switcher](./Project_01_color_switcher/assets/img/Color_switcher.png)
@@ -7,7 +8,6 @@
 <br>
 ![Color Scheme Switcher - Blue Background](./Project_01_color_switcher/assets/img/Color_Switcher_grey.png)
 
-# <u>Project 1 :- Color Scheme Switcher :-</u>
 ## In the Color Scheme Switcher Project i can used <b><u> DOM and If condition and also Switch Case</u> </b> to change the the background color with respect to its item .
 ### <u># I can used following steps to change color :- </u>
 
