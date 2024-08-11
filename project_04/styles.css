@@ -103,7 +103,7 @@ html {
       width: 90%;
       height: max-content;
       position: flex;
-      top: 40%;
+      top:51%;
 
       animation: centerWrapper 1s ease-in-out forwards;
     }
@@ -147,4 +147,10 @@ html {
       top: 20px;
       left: 19px;
     }
+  }
+  .msg{
+    color: red;
+  }
+  .msg0{
+    color: green;
   }

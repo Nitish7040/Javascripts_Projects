@@ -53,12 +53,12 @@ function validateGuess(guess) {
 function checkGuess(guess){
 // 
 if(guess === randomNumber){
-    displayMessage(`You guessed it right`)
+    displayMessage(`<p class="msg0">🎉🥳You guessed it right🥳🎉 </p>`)
     endGame()
 }else if(guess < randomNumber){
-    displayMessage(`Number is to low`)
+    displayMessage(`<p class="msg">🙂Number is to low🙂</p>`)
 }else if(guess > randomNumber){
-    displayMessage(`Number is to high`)
+    displayMessage(`<p class="msg">😓Number is to high😓</p>`)
 }
 
 }
