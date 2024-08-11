@@ -10,7 +10,9 @@ html {
     background: rgb(26,120,117);
     background: linear-gradient(90deg, rgba(26,120,117,1) 17%, rgba(206,125,46,1) 64%, rgba(0,0,0,1) 100%); 
   }
-  
+
+
+
   .lastResult {
     color: white;
     padding: 7px;
@@ -69,6 +71,17 @@ html {
     background-color: #7a7a7a;
   }
   
+  @keyframes centerWrapper {
+    0% {
+      transform: translate(-50%, -50%) scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
+  
   #wrapper {
     box-sizing: border-box;
     text-align: center;
@@ -78,7 +91,29 @@ html {
     color: #fff;
     font-size: 25px;
     background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: centerWrapper 0.8s ease-in-out forwards;
   }
+  
+  @media screen and (max-width: 768px) {
+    #wrapper {
+      width: 90%;
+      height: max-content;
+      position: flex;
+      top: 40%;
+
+      animation: centerWrapper 1s ease-in-out forwards;
+    }
+  }
+  
+
+
+
+
+
   
   h1 {
     background-color: #161616;
@@ -96,9 +131,20 @@ html {
     /* border: 3px solid red; */
     color: white;
     position: relative;
-    top: 30px;
+    top: 20px;
+    left: 15px;
   }
   .name a{
     /* border: 2px solid green; */
     color: yellow;
+  }
+
+  @media screen and (max-width: 768px) {
+    .name{
+      /* border: 3px solid red; */
+      color: white;
+      position: relative;
+      top: 20px;
+      left: 19px;
+    }
   }
