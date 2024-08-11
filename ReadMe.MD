@@ -12,17 +12,17 @@
 ### <u># I can used following steps to change color :- </u>
 
 ### 1  :- I can select the different buttons using <strong><u>querySelectorAll</u></strong> and code is :-
-```
+```javascript
 const buttons = document.querySelectorAll('.button');
 // console.log(buttons)
 ```
 ### 2:- In this step i can select the body with <strong><u> querySelector </u><stronng> code is :-
-```
+```javascript
 const body = document.querySelector("body");
 // console.log(body)
 ```
 ### 3:- In the third step i can use <strong><u>foreach loop</u></strong> for select all buttons :-
-```
+```javascript
 buttons.forEach(function (button){
 console.log(button);
 
@@ -31,7 +31,7 @@ console.log(button);
 });
 ```
 ### 4:- Now i can add the <strong><u>addEventListener()</u></strong> for change the background color using following logic :-
-```
+```javascript
 button.addEventListener('click',function(e){
     console.log(e);
     console.log(e.target);
@@ -40,7 +40,7 @@ button.addEventListener('click',function(e){
 ```
 ### 5:- Change background color with follwing logic:-
 ## If( ) statement :-
-```
+```javascript
 //change bg color to grey using if statement
 
     if(e.target.id ==='grey'){
@@ -49,7 +49,7 @@ button.addEventListener('click',function(e){
     }
 ```
 ## switch case :-
-```
+```javascript
 //change bg color to grey using switch case 
 
 switch(e.target.id){
