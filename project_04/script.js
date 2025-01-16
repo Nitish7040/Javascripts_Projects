@@ -48,8 +48,6 @@ function validateGuess(guess) {
     }
 }
 
-
-
 function checkGuess(guess){
 // 
 if(guess === randomNumber){

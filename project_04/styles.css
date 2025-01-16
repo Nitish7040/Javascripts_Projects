@@ -6,11 +6,11 @@ html {
     width: 300px;
     max-width: 750px;
     min-width: 480px;
+    max-height: 100%;
     margin: 0 auto;
     background: rgb(26,120,117);
     background: linear-gradient(90deg, rgba(26,120,117,1) 17%, rgba(206,125,46,1) 64%, rgba(0,0,0,1) 100%); 
   }
-
 
 
   .lastResult {
@@ -101,13 +101,14 @@ html {
   @media screen and (max-width: 768px) {
     #wrapper {
       width: 90%;
-      height: max-content;
+      height: 70%;
       position: flex;
-      top:51%;
+      top:42%;
 
       animation: centerWrapper 1s ease-in-out forwards;
     }
   }
+
   
 
 
